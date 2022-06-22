@@ -1,5 +1,7 @@
-import java.util.*;
-import java.util.stream.Collectors;
+package stream.service;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Stream01 {
 

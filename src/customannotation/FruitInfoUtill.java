@@ -1,4 +1,4 @@
-package CustomAnnotation;
+package customannotation;
 
 import java.lang.reflect.Field;
 

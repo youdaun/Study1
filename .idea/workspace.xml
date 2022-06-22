@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a746a3a-681d-4034-9c87-7c420565c7d7" name="Changes" comment="Stream1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustomAnnotation/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustomAnnotation/FruitColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustomAnnotation/FruitInfoUtill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustomAnnotation/FruitName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustomAnnotation/FruitProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustomAnnotation/FruitRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/service/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/vo/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomAnnotation/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/customannotation/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomAnnotation/FruitColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/customannotation/FruitColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomAnnotation/FruitInfoUtill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/customannotation/FruitInfoUtill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomAnnotation/FruitName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/customannotation/FruitName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomAnnotation/FruitProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/customannotation/FruitProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomAnnotation/FruitRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/customannotation/FruitRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/Stream01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,27 +35,29 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ArkGqTPrYdEszkeLTExSpJJZJW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.FruitRun">
+}</component>
+  <component name="RunManager" selected="Application.Test">
     <configuration name="FruitRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CustomAnnotation.FruitRun" />
+      <option name="MAIN_CLASS_NAME" value="customannotation.FruitRun" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CustomAnnotation.*" />
+          <option name="PATTERN" value="customannotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,16 +66,30 @@
       </method>
     </configuration>
     <configuration name="Stream01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream01" />
+      <option name="MAIN_CLASS_NAME" value="stream.service.Stream01" />
       <module name="Study" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.service.Test" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FruitRun" />
-        <item itemvalue="Application.Stream01" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.customannotation.FruitRun" />
+        <item itemvalue="Application.stream.Stream01" />
       </list>
     </recent_temporary>
   </component>
@@ -84,7 +102,8 @@
       <option name="presentableId" value="Default" />
       <updated>1655774999048</updated>
       <workItem from="1655775000225" duration="3815000" />
-      <workItem from="1655785072641" duration="2781000" />
+      <workItem from="1655785072641" duration="3137000" />
+      <workItem from="1655857728027" duration="1868000" />
     </task>
     <task id="LOCAL-00001" summary="Stream1">
       <created>1655784083607</created>
@@ -93,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655784083607</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Stream1">
+      <created>1655788016405</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655788016405</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

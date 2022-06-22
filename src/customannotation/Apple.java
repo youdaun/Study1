@@ -1,4 +1,4 @@
-package CustomAnnotation;
+package customannotation;
 
 public class Apple {
 
